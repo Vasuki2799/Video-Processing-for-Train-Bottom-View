@@ -83,17 +83,29 @@ The goal of this project is to develop a video processing system to analyze trai
 ## File Structure
 Train_Coach_Detection/
 ├── data/                   # Sample frames (optional)
+
 ├── model/
+
 │   └── train_model.h5      # Trained CNN model
+
 ├── scripts/
+
 │   ├── frame_extraction.py
+
 │   ├── train_cnn.py
+
 │   ├── annotate_frames.py
+
 │   └── count_coaches.py
+
 ├── videos/
+
 │   ├── output.avi
+
 │   ├── output1.avi
+
 │   └── ...
+
 ├── report.pdf              # Generated PDF report
 
 
